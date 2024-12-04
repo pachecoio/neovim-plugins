@@ -2,7 +2,7 @@
 
 # Copy plugins to neovim plugins directory
 
-path_to_plugins="~/.config/nvim/plugins"
+path_to_plugins="~/.config/nvim/lua/plugins"
 repository_url="https://github.com/pachecoio/neovim-plugins.git"
 
 if [ ! -d "$path_to_plugins" ]; then
