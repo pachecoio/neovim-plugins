@@ -7,4 +7,16 @@ vim.keymap.set("n", "<C-k>", "<C-w>k", { desc = "Move to top split" })
 -- Move to bottom split with ctrl j
 vim.keymap.set("n", "<C-j>", "<C-w>j", { desc = "Move to bottom split" })
 
+local map = vim.keymap.set
+
+map("n", ";", ":", { desc = "CMD enter command mode" })
+map("i", "jk", "<ESC>")
+
+map("n", "<Leader>m", ":NvimTreeToggle <cr>", { desc = "Open file tree" })
+
+map("n", "<Leader>q", ":q<cr>", { desc = "Close buffer" })
+map("n", "<Leader>fs", ":w<cr>", { desc = "Save file" })
+
+map("t", "<esc>", "<C-\\><C-n>")
+
 return {}
