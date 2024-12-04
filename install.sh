@@ -15,4 +15,5 @@ git clone "$repository_url"
 
 cd neovim-plugins
 
-cp -r * "$path_to_plugins"
+# copy all files except the install script
+find . -type f -not -name "install.sh" -exec cp {} "$path_to_plugins" \;
