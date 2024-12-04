@@ -11,7 +11,12 @@ fi
 
 cd /tmp
 
-git clone "$repository_url"
+if [ ! -d "neovim-plugins" ]; then
+    git clone "$repository_url"
+else
+    cd neovim-plugins
+    git pull
+fi
 
 cd neovim-plugins
 
