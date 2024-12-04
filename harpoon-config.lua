@@ -31,3 +31,5 @@ end)
 vim.keymap.set("n", "<S-l>", function()
 	harpoon:list():next()
 end)
+
+return {}
