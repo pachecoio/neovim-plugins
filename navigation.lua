@@ -12,9 +12,6 @@ local map = vim.keymap.set
 map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
 
--- Remove all Leader m mappings
-vim.keymap.del("n", "<Leader>m")
-
 map("n", "<Leader>m", ":NvimTreeToggle <cr>", { desc = "Open file tree" })
 
 map("n", "<Leader>q", ":q<cr>", { desc = "Close buffer" })
