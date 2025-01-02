@@ -12,7 +12,7 @@ local map = vim.keymap.set
 map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
 
-map("n", "<Leader>m", ":NvimTreeToggle <cr>", { desc = "Open file tree" })
+-- map("n", "<Leader>m", ":NvimTreeToggle <cr>", { desc = "Open file tree" })
 
 map("n", "<Leader>q", ":q<cr>", { desc = "Close buffer" })
 map("n", "<Leader>fs", ":w<cr>", { desc = "Save file" })
