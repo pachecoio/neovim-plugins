@@ -60,6 +60,7 @@ return {
       "nvim-neotest/neotest-jest",
       "nvim-neotest/neotest-plenary",
       "MarkEmmons/neotest-deno",
+      "jfpedroza/neotest-elixir"
       {
         "mrcjkb/rustaceanvim",
         version = "^5", -- Recommended
@@ -78,6 +79,7 @@ return {
           require "neotest-deno",
           require "neotest-jest",
           require "rustaceanvim.neotest",
+          require "neotest-elixir",
           -- require "neotest-haskell" {
           --   -- Default: Use stack if possible and then try cabal
           --   build_tools = { "stack", "cabal" },
