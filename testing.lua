@@ -60,7 +60,7 @@ return {
       "nvim-neotest/neotest-jest",
       "nvim-neotest/neotest-plenary",
       "MarkEmmons/neotest-deno",
-      "jfpedroza/neotest-elixir"
+      "jfpedroza/neotest-elixir",
       {
         "mrcjkb/rustaceanvim",
         version = "^5", -- Recommended
