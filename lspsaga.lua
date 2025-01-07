@@ -15,7 +15,7 @@
 return {
 	{
 		"nvimdev/lspsaga.nvim",
-		lazy = false,
+    event = "BufReadPre",
 		dependencies = {
 			"nvim-treesitter/nvim-treesitter",
 			"nvim-tree/nvim-web-devicons",
