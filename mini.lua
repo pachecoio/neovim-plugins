@@ -1,9 +1,11 @@
 return {
   {
-    'echasnovski/mini.nvim',
+    'echasnovski/mini.ai',
     version = false,
+    event = "BufRead",
     config = function()
-      -- config mini here
+      local miniai = require('mini.ai')
+      miniai.setup {}
     end
-  }
+  },
 }
